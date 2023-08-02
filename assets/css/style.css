@@ -175,7 +175,7 @@ html {
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url('/Theband/assets/img/slider/46989.jpg') top center / cover no-repeat;
+    background: url('../img/slider/46989.jpg') top center / cover no-repeat;
 }
 
 #slider .text-content {
