@@ -5,7 +5,7 @@
 }
 
 html {
-    scroll-behavior: smooth ;
+    scroll-behavior: smooth;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -69,8 +69,7 @@ html {
     display: inline-block;
     margin-top: 15px;
     border: none;
-  
-    
+
 }
 
 .btn:hover {
@@ -90,7 +89,7 @@ html {
     left: 0;
     right: 0;
     z-index: 1;
-
+    overflow: hidden;
 }
 
 #nav {
@@ -154,18 +153,20 @@ html {
     font-size: 12px;
 }
 
-#header .search:hover {
+ #header .search:hover {
     background-color: #f44336;
     cursor: pointer;
 }
-
-#header .search {
+#header .mobile-menu-btn{
+    display: none;
+}
+#header .mobile-menu-btn, #header .search {
     float: right;
     padding: 0 21px;
 
 }
 
-#header .search-icon {
+#header .menu-icon, #header .search-icon {
     color: #fff;
     font-size: 20px;
     line-height: 46px
@@ -187,7 +188,7 @@ html {
  transform: translateX(-50%); */
     width: 100%;
     text-align: center;
-    
+
 }
 
 #silder .text-heading {
@@ -222,7 +223,7 @@ html {
     font-size: 30px;
     text-align: center;
     letter-spacing: 2cap;
-    
+
 }
 
 #content .section-sub-heading {
@@ -297,7 +298,7 @@ html {
     line-height: 24px;
     text-align: center;
     margin-top: -3px;
-    border-radius: 20% ;
+    border-radius: 20%;
 }
 
 /* FC  */
@@ -322,7 +323,7 @@ html {
     font-size: 15px;
     border: 1px solid #333;
     border-radius: 5%;
-    
+
 }
 
 .fc-heading {
@@ -489,7 +490,7 @@ html {
 
     padding: 80px 30px;
     text-align: center;
-    
+
 
 }
 
@@ -505,10 +506,12 @@ html {
 #footer .socials-list a:hover {
     opacity: 0.4;
 }
+
 #footer .copyright {
     margin-top: 15px;
-    color:rgba(0, 0, 0, 0.6) ;
-} 
+    color: rgba(0, 0, 0, 0.6);
+}
+
 #footer .copyright a {
     text-decoration: none;
 }

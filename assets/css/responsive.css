@@ -1,0 +1,171 @@
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #content .content-section {
+        width: 800px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 64px 0 112px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+}
+
+
+/* Mobile */
+/* @media (max-width: 740px) {
+    #nav>li {
+        display: block;
+    }
+
+    #nav>li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+    }
+
+    #header .mobile-menu-btn:hover {
+        background-color: #ccc;
+
+    }
+
+    #header .mobile-menu-btn:hover .menu-icon {
+        color: #000;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #slider {
+        width: 100%;
+    }
+
+    #content .member-item {}
+
+    #content .member-img {
+        width: 60%;
+    }
+    .col-half {
+        width: 100%;
+    }
+
+} */
+@media screen and (max-width: 768px) {
+    body, html {
+        margin-right: 0px;
+      }
+    #header .search, #header .mobile-menu-btn {
+      display: block;
+    }
+    #header .search {
+        display: none;
+    }
+    #nav {
+      display: none;
+      position: absolute;
+      top: 46px;
+      left: 0;
+      right: 0;
+      background-color: #000;
+      z-index: 2;
+    }
+  
+    #nav>li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    #nav li:hover .subnav {
+      display: none;
+    }
+  
+    #nav .subnav {
+      position: static;
+      display: none;
+      background-color: transparent;
+      box-shadow: none;
+    }
+  
+    #nav .subnav a {
+      display: block;
+      background-color: #fff;
+      color: #000;
+      padding: 10px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+  
+    #header .menu-icon, #header .search-icon {
+      font-size: 24px;
+      line-height: 46px;
+    }
+  
+    #content .content-section {
+      width: 100%;
+      padding: 40px 0 80px;
+    }
+  
+    #content .members-list {
+      text-align: center;
+    }
+  
+    .col {
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  
+    .fc-list .col {
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  
+    .modal-container {
+      width: 100%;
+      max-width: 100%;
+      min-height: 200px;
+      animation: modalFaceIn ease 0.3s;
+    }
+  
+    .modal-header {
+      font-size: 24px;
+    }
+  
+    #footer {
+      padding: 40px 20px;
+    }
+  
+    #footer .socials-list {
+      font-size: 20px;
+    }
+  }
