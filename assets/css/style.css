@@ -56,6 +56,9 @@ html {
 .mt-16 {
     margin-top: 16px !important;
 }
+.mt-32 {
+    margin-top: 32px !important;
+}
 
 .pull-right {
     float: right;
@@ -89,7 +92,7 @@ html {
     left: 0;
     right: 0;
     z-index: 1;
-    overflow: hidden;
+    
 }
 
 #nav {
@@ -124,7 +127,7 @@ html {
 }
 
 #nav li:hover .subnav {
-    display: block;
+    display:  block;
 }
 
 #nav .subnav li:hover,
@@ -135,7 +138,7 @@ html {
 
 #nav .subnav {
     min-width: 160px;
-    display: none;
+    display: none ;
     position: absolute;
     top: 100%;
     left: 0;
@@ -150,7 +153,7 @@ html {
 }
 
 #nav .nav-arow-down {
-    font-size: 12px;
+    font-size: 14px;
 }
 
  #header .search:hover {
@@ -215,7 +218,7 @@ html {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
-    padding: 64px 0 112px;
+    padding: 136px 0 112px;
 }
 
 #content .section-heading {
@@ -235,7 +238,7 @@ html {
 }
 
 #content .about-text {
-    font-size: 15px;
+    font-size: 17px;
     margin-top: 25px;
     text-align: justify;
     line-height: 1.4;
@@ -455,7 +458,8 @@ html {
 
 /* Contact */
 .contact-content {
-    margin-top: 48px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .contact-info {

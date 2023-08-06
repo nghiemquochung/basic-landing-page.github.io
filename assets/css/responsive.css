@@ -14,7 +14,26 @@
 
 
 /* Mobile */
-/* @media (max-width: 740px) {
+@media (max-width: 740px) {
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .col {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .fc-list .col {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+
     #nav>li {
         display: block;
     }
@@ -57,6 +76,11 @@
 
     }
 
+    #content .content-section {
+        width: 100%;
+        padding: 40px 0 80px;
+    }
+
     #header .mobile-menu-btn:hover .menu-icon {
         color: #000;
     }
@@ -69,103 +93,54 @@
         width: 100%;
     }
 
+    #content .about-text {
+        padding: 0 25px
+    }
+
+    .fc-body {
+
+        margin: 0 16px;
+        margin-bottom: 16px;
+
+    }
+
     #content .member-item {}
 
     #content .member-img {
         width: 60%;
     }
-    .col-half {
-        width: 100%;
+
+    .btn {
+        padding: 15.5px 24px;
     }
 
-} */
-@media screen and (max-width: 768px) {
-    body, html {
-        margin-right: 0px;
-      }
-    #header .search, #header .mobile-menu-btn {
-      display: block;
-    }
-    #header .search {
-        display: none;
-    }
-    #nav {
-      display: none;
-      position: absolute;
-      top: 46px;
-      left: 0;
-      right: 0;
-      background-color: #000;
-      z-index: 2;
-    }
-  
-    #nav>li {
-      display: block;
-      margin-bottom: 10px;
-    }
-  
-    #nav li:hover .subnav {
-      display: none;
-    }
-  
-    #nav .subnav {
-      position: static;
-      display: none;
-      background-color: transparent;
-      box-shadow: none;
-    }
-  
-    #nav .subnav a {
-      display: block;
-      background-color: #fff;
-      color: #000;
-      padding: 10px;
-      text-align: center;
-      border-bottom: 1px solid #ddd;
-    }
-  
-    #header .menu-icon, #header .search-icon {
-      font-size: 24px;
-      line-height: 46px;
-    }
-  
-    #content .content-section {
-      width: 100%;
-      padding: 40px 0 80px;
-    }
-  
-    #content .members-list {
-      text-align: center;
-    }
-  
-    .col {
-      width: 100%;
-      padding-left: 0;
-      padding-right: 0;
-    }
-  
-    .fc-list .col {
-      width: 100%;
-      padding-left: 0;
-      padding-right: 0;
-    }
-  
-    .modal-container {
-      width: 100%;
-      max-width: 100%;
-      min-height: 200px;
-      animation: modalFaceIn ease 0.3s;
-    }
-  
     .modal-header {
-      font-size: 24px;
+        font-size: 24px;
     }
-  
+
+    .contact-content p {
+        padding-left: 16px
+    }
+
+    form {
+        margin: 14px 16px;
+    }
+
+    .modal.js-modal {
+        margin: 0 -16px;
+    }
+
     #footer {
-      padding: 40px 20px;
+        padding: 40px 20px;
     }
-  
+
+
+    #footer {
+        padding: 40px 20px;
+    }
+
     #footer .socials-list {
-      font-size: 20px;
+        font-size: 20px;
     }
-  }
+
+}
