@@ -126,6 +126,7 @@
 
     .btn {
         padding: 15.5px 24px;
+        width: 100%;
     }
 
     .modal-header {
@@ -134,6 +135,18 @@
 
     .contact-content p {
         padding-left: 16px
+    }
+
+    input.form-control {
+        margin-top: 8px;
+    }
+
+    input.btn.mt-16.pull-right {
+        width: 100%;
+    }
+
+    .contact-info {
+        line-height: 1.75;
     }
 
     form {
@@ -149,12 +162,22 @@
     }
 
 
-    #footer {
-        padding: 40px 20px;
+    #footer .coppyright {
+        padding: 10px 0;
+        display: inline-block ;
+
     }
 
     #footer .socials-list {
-        font-size: 20px;
+        font-size: 30px;
+        margin: 0 16px;
+        display: inline-block ;
     }
+
+    #footer .socials-list a {
+        margin: 0 4px;
+        padding: 8px 0;
+    }
+
 
 }
